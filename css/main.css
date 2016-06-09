@@ -1,0 +1,99 @@
+html{
+    font-size : 62.5%;
+}
+body{
+    background-color: #F5F4EF;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+a:link, a:visited{
+
+}
+a:hover, a:active{
+    text-decoration: none;
+    color : #eeeeee;
+}
+.top-header{
+
+}
+#title{
+    font-size : 2.5rem;
+    color : #FFFFFF;
+    font-weight : bolder;
+    margin-left : .5rem;
+}
+@media (min-width : 750px) {
+    .topNav {
+        float: right;
+    }
+}
+.topNav li {}
+.topNav li:link, .topNav li:visited{
+}
+.topNav li:hover, .topNav li:active{
+    border-bottom: .3rem solid #ffffff;
+}
+.body{margin-top : 8rem;}
+.main-column-2{}
+.main-column-3{}
+.article h2{
+
+}
+.summary{
+    font-size : inherit;
+}
+.summary:first-letter{}
+.slider-1{text-align : center;}
+.slider-1 .headPic img{
+    margin : 1rem auto .5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.slider-1 .myId{
+    color : #4cae4c;
+    font-size : 2.5rem;
+    font-weight: bolder;
+}
+.slider-1 nav a{
+    color : #c0c0c0;
+    font-size : 1.8rem;
+}
+.slider-2{
+    margin : 1rem auto;
+}
+.slider-2 .focus-me{
+    text-align : center;
+    margin : 0 auto;
+}
+.carousel-control{
+    opacity: .1;
+}
+.slider-3 > div{
+    margin : 0;
+    text-align : center;
+}
+.slider-3 .piece{
+    margin : 0 auto;
+    font-size : 5rem;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+.bottom-footer{
+    color :  #ffffff;
+}
+.bottom-footer h3{
+    font-size : 1.6rem;
+    font-weight: bold;
+}
+.bottom-footer .contact{
+    text-align: right;
+    display : block;
+    text-align : right;
+    font-size : 1.4rem;
+    line-height : 6rem;
+    height  :3rem;
+    position : relative;
+    right : .8rem;
+}
+.bottom-footer{
+    /*visibility: hidden;*/
+}
